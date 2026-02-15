@@ -11,7 +11,9 @@ assign instruction = mem[address];
 assign next_byte = (address < 255) ? mem[address + 1] : 8'b0;  // Lookahead
 
 initial begin
-    $readmemb("/home/frost/Projects/project_1/program.mem", mem);
+    $readmemb("program.mem", mem);
+    $display("INFO: Instruction memory loaded from program.mem");
 end
+
 
 endmodule
