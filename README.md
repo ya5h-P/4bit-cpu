@@ -1,8 +1,6 @@
 # 4-bit CPU in Verilog
 
-A 4-bit CPU that started simple and got carried away. Built as a learning project to understand computer architecture from the ground up.
-
-> **Note:** This is Version 2 with significant enhancements. The original simpler version is preserved in the [`v1-basic`](../../tree/v1-basic) branch if you want to see where this journey started.
+A simpleish 4 bit cpu made for a learning project
 
 ## About This Project
 
